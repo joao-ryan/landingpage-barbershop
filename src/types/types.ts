@@ -11,7 +11,7 @@ export interface Course {
   id: string;
   title: string;
   duration: string;
-  level: 'Iniciante' | 'Profissional' | 'Especialização';
+  level: 'Iniciante' | 'Profissional' | 'Especialização' | 'Barbeiro Completo Oficial';
   description: string;
 }
 

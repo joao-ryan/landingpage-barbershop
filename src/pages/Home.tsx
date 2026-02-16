@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Metrics from '../components/Metrics';
 import Courses from '../components/Courses';
 import Services from '../components/Services';
+import Gallery from '../components/Gallery';
 
 const Home: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <Metrics />
       <Courses />
       <Services />
+      <Gallery />
     </div>
   );
 };

@@ -3,7 +3,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { courses } from '../data/data';
 import { GraduationCap, ArrowRight } from 'lucide-react';
-import Button from './Button';
 
 const Courses: React.FC = () => {
   return (

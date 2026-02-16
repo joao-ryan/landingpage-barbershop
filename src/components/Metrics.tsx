@@ -8,7 +8,7 @@ const Metrics: React.FC = () => {
     <section className="py-24 bg-white border-y border-gray-100">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
-          {metrics.map((metric, index) => (
+          {metrics.map((metric) => (
             <motion.div
               key={metric.label}
               initial={{ opacity: 0 }}

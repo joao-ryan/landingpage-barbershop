@@ -116,6 +116,37 @@ export const services: Service[] = [
   }
 ];
 
+export const courses: Course[] = [
+  {
+    id: 'c1',
+    title: 'Workshop Iniciante',
+    level: 'Iniciante',
+    duration: '3 Meses',
+    description: 'Do zero ao primeiro corte. Fundamentos de anatomia capilar e manuseio de ferramentas.'
+  },
+  {
+    id: 'c2',
+    title: 'Barbearia de Elite',
+    level: 'Profissional',
+    duration: '6 Meses',
+    description: 'Técnicas avançadas de tesoura, colorimetria básica e gestão de barbearia.'
+  },
+  {
+    id: 'c3',
+    title: 'Mestre da Navalha',
+    level: 'Especialização',
+    duration: '1 Mês',
+    description: 'Foco total em barboterapia, desenhos e acabamentos artísticos de alta precisão.'
+  },
+  {
+    id: 'c4',
+    title: 'Curso Completo',
+    level: 'Barbeiro Completo Oficial',
+    duration: '8 meses',
+    description: 'Desenvolvimento de habilidades técnicas e gestão de barbearia, com capacidade de independencia plena e máximização de nivel de trabalho'
+  }
+];
+
 export const galleryItems: GalleryItem[] = [
   { id: 'g1', title: 'Mid Fade Premium', imageUrl: 'https://picsum.photos/seed/cut1/600/600' },
   { id: 'g2', title: 'Pompadour Clássico', imageUrl: 'https://picsum.photos/seed/cut2/600/600' },
