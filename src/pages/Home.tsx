@@ -7,6 +7,7 @@ import Services from '../components/Services';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 import CTA from '../components/CTA';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
       <Gallery />
       <Testimonials />
       <CTA />
+      <Footer />
     </div>
   );
 };

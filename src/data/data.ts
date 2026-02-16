@@ -148,12 +148,11 @@ export const courses: Course[] = [
 ];
 
 export const galleryItems: GalleryItem[] = [
-  { id: 'g1', title: 'Mid Fade Premium', imageUrl: 'https://picsum.photos/seed/cut1/600/600' },
-  { id: 'g2', title: 'Pompadour Clássico', imageUrl: 'https://picsum.photos/seed/cut2/600/600' },
-  { id: 'g3', title: 'Barboterapia Relax', imageUrl: 'https://picsum.photos/seed/cut3/600/600' },
-  { id: 'g4', title: 'Buzz Cut Design', imageUrl: 'https://picsum.photos/seed/cut4/600/600' },
-  { id: 'g5', title: 'Long Trim', imageUrl: 'https://picsum.photos/seed/cut5/600/600' },
-  { id: 'g6', title: 'Executive Contour', imageUrl: 'https://picsum.photos/seed/cut6/600/600' },
+  { id: 'g2', title: 'Degradê', imageUrl: 'https://dicasdecabelo.com.br/wp-content/uploads/2025/05/low-fade-cabelo-liso-01.jpg' },
+  { id: 'g3', title: 'Social Classico', imageUrl: 'https://i.pinimg.com/474x/7b/56/cd/7b56cda0d4376b85dbcfcc58dd6ff077.jpg' },
+  { id: 'g4', title: 'Barba', imageUrl: 'https://i.pinimg.com/474x/74/1d/d4/741dd468d700b0f454f124aa290262e1.jpg' },
+  { id: 'g5', title: 'Sombracelha', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoetw4_UOEyJ2KgbvRH7elTAE1MxdMAshtVw&s' },
+  { id: 'g6', title: 'Corte na tesoura', imageUrl: 'https://img.freepik.com/fotos-premium/cortar-o-cabelo-com-uma-tesoura-no-cabeleireiro-corte-de-cabelo-bonito_118478-810.jpg' },
 ];
 
 export const testimonials: Testimonial[] = [
