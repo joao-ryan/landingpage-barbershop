@@ -1,12 +1,10 @@
 import './App.css'
 import Home from './pages/Home'
-import Hero from './components/Hero'
 function App() {
 
   return (
     <>
       <Home />
-      <Hero />
     </>
   )
 }
