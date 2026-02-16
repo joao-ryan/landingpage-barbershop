@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# BlackBlade Barber Shop ✂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório da **BlackBlade Barber Shop**, uma landing page moderna, responsiva e de alta performance desenvolvida para uma barbearia premium. Este projeto destaca a excelência em serviços de barbearia e a formação de novos profissionais através da Academy.
 
-Currently, two official plugins are available:
+![BlackBlade Banner](https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+- **Design Premium & Moderno**: Interface elegante com animações suaves e estética visual impactante.
+- **Responsividade Total**: Layout adaptável para dispositivos móveis, tablets e desktops.
+- **Animações Fluidas**: Utilização do `framer-motion` para transições e micro-interações envolventes.
+- **Seções Informativas**:
+  - **Hero**: Apresentação impactante com CTA (Call to Action).
+  - **Serviços**: Lista detalhada de serviços com preços e descrições.
+  - **Academy**: Informações sobre cursos de formação para barbeiros.
+  - **Galeria**: Vitrine visual dos cortes e trabalhos realizados.
+  - **Depoimentos**: Prova social de clientes satisfeitos.
+  - **Métricas**: Dados de impacto da barbearia.
+  - **Contato & Localização**: Informações fáceis de acesso para agendamento.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+Este projeto foi construído com as melhores tecnologias do mercado para garantir performance e manutenibilidade:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **[React](https://react.dev/)**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
+- **[Vite](https://vitejs.dev/)**: Build tool ultrarrápida para desenvolvimento web moderno.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utility-first para estilização rápida e consistente.
+- **[Framer Motion](https://www.framer.com/motion/)**: Biblioteca para animações complexas e gestos em React.
+- **[Lucide React](https://lucide.dev/)**: Conjunto de ícones leves e consistentes.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Instalação e Uso
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Siga os passos abaixo para rodar o projeto localmente:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/blackblade-barber.git
+    cd blackblade-barber
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    O projeto estará rodando em `http://localhost:5173`.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📜 Scripts Disponíveis
+
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Compila o projeto para produção.
+- `npm run preview`: Visualiza a versão de produção localmente.
+- `npm run lint`: Executa a verificação de código com ESLint.
+
+## 🚀 Deploy
+
+O projeto está configurado para deploy fácil na **Vercel**.
+
+1.  Crie uma conta na [Vercel](https://vercel.com/).
+2.  Importe o repositório do GitHub.
+3.  As configurações de build padrão do Vite (`npm run build` e diretório `dist`) são detectadas automaticamente.
+4.  O arquivo `vercel.json` já está incluído para garantir o roteamento correto (SPA).
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar.
+
+---
+
+Desenvolvido com 💻 e ☕ por **João Ryan**.
