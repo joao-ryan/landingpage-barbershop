@@ -3,56 +3,116 @@ import type { Service, Course, GalleryItem, Testimonial, Metric } from '../types
 
 export const services: Service[] = [
   {
-    id: '1',
-    name: 'Corte Moderno',
-    price: 'R$ 65',
-    duration: '45 min',
-    description: 'Degradê, Undercut ou Pompadour com finalização premium.'
+    id: "1",
+    name: "Corte Moderno",
+    price: "R$ 65",
+    duration: "45 min",
+    description: "Degradê, Undercut ou Pompadour com finalização premium."
   },
   {
-    id: '2',
-    name: 'Barba de Respeito',
-    price: 'R$ 45',
-    duration: '30 min',
-    description: 'Toalha quente, hidratação e alinhamento preciso.'
+    id: "2",
+    name: "Barba de Respeito",
+    price: "R$ 45",
+    duration: "30 min",
+    description: "Toalha quente, hidratação e alinhamento preciso."
   },
   {
-    id: '3',
-    name: 'Combo BlackBlade',
-    price: 'R$ 100',
-    duration: '75 min',
-    description: 'Corte completo + Barboterapia completa.'
+    id: "3",
+    name: "Combo BlackBlade",
+    price: "R$ 100",
+    duration: "75 min",
+    description: "Corte completo + Barboterapia completa."
   },
   {
-    id: '4',
-    name: 'Sobrancelha',
-    price: 'R$ 20',
-    duration: '15 min',
-    description: 'Limpeza e design manual na navalha.'
-  }
-];
-
-export const courses: Course[] = [
-  {
-    id: 'c1',
-    title: 'Workshop Iniciante',
-    level: 'Iniciante',
-    duration: '3 Meses',
-    description: 'Do zero ao primeiro corte. Fundamentos de anatomia capilar e manuseio de ferramentas.'
+    id: "4",
+    name: "Sobrancelha",
+    price: "R$ 20",
+    duration: "15 min",
+    description: "Limpeza e design manual na navalha."
   },
   {
-    id: 'c2',
-    title: 'Barbearia de Elite',
-    level: 'Profissional',
-    duration: '6 Meses',
-    description: 'Técnicas avançadas de tesoura, colorimetria básica e gestão de barbearia.'
+    id: "5",
+    name: "Corte Degradê",
+    price: "R$ 55",
+    duration: "40 min",
+    description: "Low, mid ou high fade com acabamento na navalha."
   },
   {
-    id: 'c3',
-    title: 'Mestre da Navalha',
-    level: 'Especialização',
-    duration: '1 Mês',
-    description: 'Foco total em barboterapia, desenhos e acabamentos artísticos de alta precisão.'
+    id: "6",
+    name: "Corte Social",
+    price: "R$ 50",
+    duration: "35 min",
+    description: "Corte clássico para o dia a dia ou ambiente profissional."
+  },
+  {
+    id: "7",
+    name: "Corte Completo",
+    price: "R$ 70",
+    duration: "50 min",
+    description: "Corte detalhado com lavagem e finalização."
+  },
+  {
+    id: "8",
+    name: "Pezinho",
+    price: "R$ 15",
+    duration: "10 min",
+    description: "Acabamento rápido na nuca e laterais."
+  },
+  {
+    id: "9",
+    name: "Barba Simples",
+    price: "R$ 30",
+    duration: "20 min",
+    description: "Alinhamento e contorno básico da barba."
+  },
+  {
+    id: "10",
+    name: "Barboterapia Premium",
+    price: "R$ 55",
+    duration: "40 min",
+    description: "Toalha quente, esfoliação, óleo e modelagem completa."
+  },
+  {
+    id: "11",
+    name: "Corte Infantil",
+    price: "R$ 40",
+    duration: "30 min",
+    description: "Corte estiloso para crianças com acabamento suave."
+  },
+  {
+    id: "12",
+    name: "Pigmentação Capilar",
+    price: "R$ 35",
+    duration: "25 min",
+    description: "Disfarce de falhas e realce do corte."
+  },
+  {
+    id: "13",
+    name: "Hidratação Capilar",
+    price: "R$ 25",
+    duration: "20 min",
+    description: "Tratamento rápido para brilho e maciez."
+  },
+  {
+    id: "14",
+    name: "Combo Corte + Pezinho",
+    price: "R$ 75",
+    duration: "55 min",
+    description: "Corte completo com acabamento na nuca."
+  },
+  {
+    id: "15",
+    name: "Combo Corte + Sobrancelha",
+    price: "R$ 80",
+    duration: "60 min",
+    description: "Corte estiloso com design de sobrancelha."
+  },
+  {
+    id: "16",
+    name: "Dia do Noivo",
+    price: "R$ 150",
+    duration: "90 min",
+    description: "Corte, barba premium, hidratação e finalização especial."
   }
 ];
 

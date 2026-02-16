@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Metrics from '../components/Metrics';
+import Courses from '../components/Courses';
+import Services from '../components/Services';
 
 const Home: React.FC = () => {
   return (
@@ -9,6 +11,8 @@ const Home: React.FC = () => {
       <Navbar />
       <Hero />
       <Metrics />
+      <Courses />
+      <Services />
     </div>
   );
 };
