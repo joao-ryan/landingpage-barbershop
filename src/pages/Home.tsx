@@ -6,6 +6,7 @@ import Courses from '../components/Courses';
 import Services from '../components/Services';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
+import CTA from '../components/CTA';
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <Services />
       <Gallery />
       <Testimonials />
+      <CTA />
     </div>
   );
 };
