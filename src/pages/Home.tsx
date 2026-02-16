@@ -5,6 +5,7 @@ import Metrics from '../components/Metrics';
 import Courses from '../components/Courses';
 import Services from '../components/Services';
 import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <Courses />
       <Services />
       <Gallery />
+      <Testimonials />
     </div>
   );
 };
